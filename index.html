@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Movie Search Engine</h1>
+            <h3>Powered by the <a href="https://developers.themoviedb.org/3">TMDB API</a></h3>
+            <input type="text" id="searchField" name="search">
+            <button id="searchMovie" class='searchMovie'>Search</button><br>
+        </header>
+        
+        <div id="output">
+            <div class="row">
+                <div class="column" id="column1">
+                    
+                </div>
+                <div class="column" id="column2">
+                    
+                </div>
+                <div class="column" id="column3">
+                    
+                </div>
+                <div class="column" id="column4">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer style="display:none" id='nav'>
+            
+            
+            <button id="prevPage" class="nav">Previous Page</button>
+            
+            
+            <button id="nextPage" class="nav">Next Page</button>
+            
+            <br><br>
+            <div id="currentPage">1</div>
+            <p id='name'>Vladislav Semenyshev for Relias</p>
+        </footer>
+        <script src="TMDB.js"></script>
+    </body>
+</html>
